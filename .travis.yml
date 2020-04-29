@@ -12,7 +12,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   # dadef62a5f9e0fb0e357065e440dcd444aeebca5
-  github-token: MDqrb4bXGyhCSgMsbELlHQ
+  github-token: b0c98801ad96e151a0bf3a6339709c511e646108
  
   keep-history: true
   on:
