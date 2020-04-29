@@ -78,8 +78,8 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+# deploy:
+#   type:
 
 # Site map
 ## https://github.com/hexojs/hexo-generator-sitemap
@@ -112,8 +112,7 @@ live2d:
 
 # https://github.com/achuan-web/hexo-next-blog.git
 # 部署git地址
-# deploy:
+deploy:
   type: git
-  repo: https://github.com/achuan-web/hexo-next-blog.git
-# 部署git地址
+  repo: https://github.com/achuan-web/achuan-web.github.io
   branch: master
