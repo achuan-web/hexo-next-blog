@@ -114,5 +114,6 @@ live2d:
 # 部署git地址
 deploy:
   type: git
-  repo: https://github.com/achuan-web/achuan-web.github.io
+  repo: https://github.com/achuan-web/hexo-next-blog
+  # repo: https://github.com/achuan-web/achuan-web.github.io
   branch: master
