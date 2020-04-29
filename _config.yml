@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: What's Blog
+title: aChuan Blog
 subtitle:
 description:
 keywords:
@@ -41,9 +41,9 @@ future: true
 # 代码高亮设置
 highlight:
   enable: true
-  line_number: true
+  line_number: false 
   auto_detect: true
-  tab_replace:
+  tab_replace: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -110,8 +110,9 @@ live2d:
   react:
     opacity: 0.95
 
+# https://github.com/achuan-web/hexo-next-blog.git
 # 部署git地址
-deploy:
+# deploy:
   type: git
-  repo: https://github.com/guanqr/guanqr.github.io.git
+  repo: https://github.com/achuan-web/achuan-web.github.io.git
   branch: master

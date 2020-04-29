@@ -1,11 +1,18 @@
 ---
-title: vite  [一个实验性的no build的vue开发服务器]
-date: <code> +new Date() </code>
+title: vite  
+date: 2020-04-29 19:33:15
+tags:
 ---
+
+## 一个实验性的no build的vue开发服务器
+<!-- more -->
+
+
 ![](https://user-gold-cdn.xitu.io/2020/4/22/1719ebbc83be39f0?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1)
 
 ## 前言
 在4月21日晚，Vue作者尤雨溪在哔哩哔哩直播分享了Vue.js 3.0 Beta最新进展。 里面尤大大所提到他最近在做的这个小工具 [vite](https://github.com/vuejs/vite) ,一个实验性的no build的vue开发服务器。(这个小工具可以支持热更新,且不用预编译)
+
 
 *既然感兴趣那就着手试试，上手体验体验*
 
@@ -62,14 +69,19 @@ createApp(Comp).mount('#app')
 *  `cd vue-vite`    `进入目录`
 *   `vite`         `启动项目`
 
-1. 然后你就可以看到一下命令行启动提示了   
+1. 然后你就可以看到一下命令行启动提示了     
 
-![](https://user-gold-cdn.xitu.io/2020/4/22/171a0286e01f540c?w=733&h=81&f=png&s=9855)
+  ![](https://user-gold-cdn.xitu.io/2020/4/22/171a0286e01f540c?w=733&h=81&f=png&s=9855)
 
 2. ctrl+鼠标左键点击进去看到这样的页面就代表你启动成功了   
 
-![](https://user-gold-cdn.xitu.io/2020/4/22/171a02a53c93c15b?w=468&h=309&f=png&s=12012)
+  ![](https://user-gold-cdn.xitu.io/2020/4/22/171a02a53c93c15b?w=468&h=309&f=png&s=12012)
 
 然后你可以尝试修改 `Comp.vue` 看看效果是不是那样神奇，不用预编译，且支持热更新
 
 [vite地址 点这里](https://github.com/vuejs/vite)
+
+
+| 表头 | 表头 |
+| ---- | ---- |
+| 表头 | 表头 |
